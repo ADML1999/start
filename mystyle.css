@@ -1,6 +1,59 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 * {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
     list-style: none;
+}
+.menu {
+    position: fixed;
+}
+.menu , .footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+.bttn-nav {
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bttn-nav:hover {
+    cursor: pointer;
+    background-color: wheat;
+}
+.bttn-nav > a:link , a:visited , a:hover , a:active {
+    color: white;
+}
+.bttn-hamburguer { /**mobile menu**/
+    display: none;
+}
+.main {
+    width: 100vw;
+    background-color: wheat;
+    text-align: center;
+}
+.inicio , .sobre , .contato {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div2 {
+    background-color: black;
+    color: wheat;
 }
